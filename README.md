@@ -4,31 +4,16 @@ This Python script scrapes the Rotten Tomatoes website to retrieve the top TV sh
 
 The script also uses the smtplib library to send an email containing the list of titles, and the os library to retrieve the sender and recipient email addresses and the email password from environment variables. It uses the schedule library to schedule the script to run every Friday at 6pm.
 
-Prerequisites
+- Prerequisites
+  - Python 3
+  - Requests
+  - BeautifulSoup
+  - smtplib
+  - Schedule
 
-Python 3
-requests library
-BeautifulSoup library
-smtplib library
-schedule library
-Usage
+Getting Started  
 
-Clone the repository:
-bash
-Copy code
-git clone https://github.com/your-username/rotten-tomatoes-scraper.git
-Install the required libraries:
-Copy code
-pip install requests beautifulsoup4 schedule
-Set the following environment variables:
-MY_EMAIL: the sender email address
-MY_PASSWORD: the email password
-RECIPIENT_EMAIL: the recipient email address
-Run the script:
-Copy code
-python rotten_tomatoes_scraper.py
-The script will scrape the Rotten Tomatoes website and send an email containing the list of top TV shows and movies every Friday at 6pm.
-
-License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
+1. Clone the repository to your local machine![Screenshot 2023-04-03 at 4](Screenshot%202023-04-03%20at%204.27.31%20PM.JPG)  
+2. Set up your email credentials as environment variables![Screenshot 2023-04-03 at 4](Screenshot%202023-04-03%20at%204.28.11%20PM.JPG)
+3. Run the script
+![Screenshot 2023-04-03 at 4](Screenshot%202023-04-03%20at%204.28.33%20PM.JPG)
