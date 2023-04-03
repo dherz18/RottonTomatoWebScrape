@@ -13,7 +13,10 @@ The script also uses the smtplib library to send an email containing the list of
 
 Getting Started  
 
-1. Clone the repository to your local machine![Screenshot 2023-04-03 at 4](Screenshot%202023-04-03%20at%204.27.31%20PM.JPG)  
-2. Set up your email credentials as environment variables![Screenshot 2023-04-03 at 4](Screenshot%202023-04-03%20at%204.28.11%20PM.JPG)
-3. Run the script
-![Screenshot 2023-04-03 at 4](Screenshot%202023-04-03%20at%204.28.33%20PM.JPG)
+1. Clone the repository to your local machine!![Screenshot 2023-04-03 at 4 27 31 PM](https://user-images.githubusercontent.com/121212892/229634989-0bc609c6-ce7c-441f-a05f-a583bd9f93dc.JPG)
+
+2. Set up your email credentials as environment variables!![Screenshot 2023-04-03 at 4 28 11 PM](https://user-images.githubusercontent.com/121212892/229635001-e2d9a2de-e117-4c8a-acce-bc67a448ffba.JPG)
+
+3. Run the script![Screenshot 2023-04-03 at 4 28 33 PM](https://user-images.githubusercontent.com/121212892/229635011-8cf1533c-4dd9-4793-b856-d6e079a40763.JPG)
+
+
